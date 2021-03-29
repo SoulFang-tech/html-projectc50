@@ -22,3 +22,6 @@ p {
     color: orange;
     
 }
+.bottmomNav :hover {
+    color: springgreen;
+}
