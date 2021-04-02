@@ -11,17 +11,28 @@ p {
     color: cyan;
 
 }
-.footer{ 
+.footer { 
     color: blue;
     position: fixed;     
     text-align: center;    
     bottom: 0px; 
     width: 100%;
 }  
-.facts{
-    color: orange;
-    
+.origami .facts{
+    color:greenyellow;
+    position: relative;
+    opacity: 0;
 }
-.bottmomNav :hover {
+.origami:hover .facts{
+    opacity:1 ;
+}
+
+a:hover {
     color: springgreen;
+}
+a {
+text-decoration: none;
+}
+a:hover img{
+transform: scale(1.5);
 }
